@@ -6,6 +6,7 @@ const gameDiv = document.getElementById("game");
 const gameModeDiv = document.getElementById("gameMode");
 const twoPlayersBtn = document.getElementById("twoPlayersBtn");
 const vsComputerBtn = document.getElementById("vsComputerBtn");
+const selectModeButton = document.getElementById("selectMode");
 
 let board = [
   ["", "", ""],
@@ -212,3 +213,4 @@ twoPlayersBtn.addEventListener("click", () => startGameMode("twoPlayers"));
 vsComputerBtn.addEventListener("click", () => startGameMode("vsComputer"));
 cells.forEach(cell => cell.addEventListener("click", handleCellClick));
 restartButton.addEventListener("click", restartGame);
+selectModeButton.addEventListener("click", backToModeSelection);
