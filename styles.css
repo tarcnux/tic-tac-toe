@@ -143,6 +143,36 @@ h2 {
   transform: translateY(0);
 }
 
+/* Controls + Select Mode button styles */
+.controls {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#selectMode {
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #f6f7f9 0%, #e2e8ff 100%);
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+#selectMode:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.12);
+}
+
+#selectMode:active {
+  transform: translateY(0);
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
   body {
