@@ -11,16 +11,6 @@ Este repositório contém uma implementação simples do jogo da velha (tic-tac-
 
 > Nota: O projeto foi gerado como parte de um exercício com ferramentas de IA do Coursera.
 
-## Screenshots / Demo
-
-Abaixo há imagens de exemplo (SVGs placeholders). Substitua `assets/screenshot.svg` e `assets/demo-animated.svg` pelos seus screenshots/GIFs reais se preferir.
-
-![Screenshot do jogo](assets/screenshot.svg)
-
-![Demo animado](assets/demo-animated.svg)
-
-Se preferir usar um GIF real, coloque o arquivo em `assets/demo.gif` e troque a referência acima por `assets/demo.gif`.
-
 ## Como jogar
 
 - Abra o arquivo `index.html` em um navegador moderno (Chrome, Firefox, Edge, Safari).
