@@ -1,5 +1,8 @@
 # tic-tac-toe
 
+[![status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/tarcnux/tic-tac-toe)
+[![license](https://img.shields.io/badge/license-None-lightgrey)](LICENSE)
+
 Jogo da Velha criado pela IA do Coursera.
 
 ## Descrição
@@ -7,6 +10,16 @@ Jogo da Velha criado pela IA do Coursera.
 Este repositório contém uma implementação simples do jogo da velha (tic-tac-toe) em HTML, CSS e JavaScript. A interface permite que duas pessoas joguem no mesmo computador usando o navegador.
 
 > Nota: O projeto foi gerado como parte de um exercício com ferramentas de IA do Coursera.
+
+## Screenshots / Demo
+
+Abaixo há imagens de exemplo (SVGs placeholders). Substitua `assets/screenshot.svg` e `assets/demo-animated.svg` pelos seus screenshots/GIFs reais se preferir.
+
+![Screenshot do jogo](assets/screenshot.svg)
+
+![Demo animado](assets/demo-animated.svg)
+
+Se preferir usar um GIF real, coloque o arquivo em `assets/demo.gif` e troque a referência acima por `assets/demo.gif`.
 
 ## Como jogar
 
